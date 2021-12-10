@@ -2,33 +2,33 @@
 #include<conio.h>
 void main() 
 {
-  int no.1,no.2,ch;
+  int no1,no2,ch;
   printf("\nEnter a Number-  ");
-  scanf("%d", &no.1);
+  scanf("%d", &no1);
   printf("\nEnter Arnother Number-  ");
-  scanf("%d",&no.2);
+  scanf("%d",&no2);
 
   printf("\n1: Addition\n2: Subtraction\n3: Multiplication\n4: Divsion\n5: Remainder");
   
   switch (ch) 
   {
     case '1':
-      printf("%d",no.1+no.2);
+      printf("%d",no1+no2);
       break;
     case '2':
-      printf("%d",no.1-no.2);
+      printf("%d",no1-no2);
       break;
     case '3':
-      printf("%d",no.1*no.2);
+      printf("%d",no1*no2);
       break;
     case '4':
-      printf("%d",no.1/no.2);
+      printf("%d",no1/no2);
       break;
       case '5':
-      printf("%d",no.1%no.2);
+      printf("%d",no1%no2);
       break;
     default:
-      printf("Error!");
+      printf("\nError");
   }
 
   getch();
