@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int x,y;
+	printf("\nEnter the value of x");
+	scanf("%d",&x);
+	printf("\nEnter the value of y");
+	scanf("%d",&y);
+	x=x+y;
+	y=x-y;
+	x=x-y;
+	printf("\nThe value of x is%d",x);
+	printf("\nThe Value of y is%d",y);
+	getch();
+}
