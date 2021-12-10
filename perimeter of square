@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+
+{int r,perimeter;
+printf("enter the value of r");
+    scanf("%d",&r);
+    perimeter= 2*3.14*r;
+    printf("perimeter of circle = %d ",perimeter);
+    getch();
+}
