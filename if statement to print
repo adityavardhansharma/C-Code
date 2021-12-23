@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b;
+	printf("Enter the value of a \n");
+	scanf("%d",&a);
+	printf("Enter the value of b \n");
+	scanf("%d",&b);
+	if(a==b)
+{
+		printf("hi");
+	}
+	getch();
+}
+// this code prints a result only when the values of a nd b given by the user are equal 
