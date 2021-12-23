@@ -1,0 +1,15 @@
+#include <stdio.h.>
+#include<conio.h>
+int main(int argc, char const *argv[])
+{
+	int a = 10;
+	int b = 20;
+	int c = 20;
+	int final1,final2;
+	final1 = a + b*c / ++c;
+	final2 = a + b/c * ++c;
+	printf("final1 = %d\n",final1 );
+	printf("final2 = %d\n",final2 );
+	return 0;
+}
+// Things to note are that the answe of final1 should be but is 29.
